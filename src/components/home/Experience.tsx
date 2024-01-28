@@ -9,7 +9,7 @@ const Experience = () => {
         <div className="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
           <div className="md:ml-auto md:w-1/2 md:pl-10">
             <h2 className="text-base font-semibold uppercase tracking-wider text-gray-300">Escapa y recárgate</h2>
-            <p className="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">Alcanza nuevos niveles de bienestar</p>
+            <p className="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">Alcanza nuevos niveles de vitalidad</p>
             <p className="mt-3 text-lg text-gray-300">Desafía el frío y disfruta una experiencia de bienestar como ninguna otra. La inmersión en hielo junto con un ambiente relajante y rejuvenecedor que atrae a una amplia gama de entusiastas del bienestar.</p>
             <div className="mt-8">
               <div className="inline-flex rounded-md shadow">
