@@ -12,7 +12,7 @@ const Hero = () => {
                   <span className="block">Desarrollando el</span>
                   <span style={{color: '#9cdbd9'}} className="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-teal-200 to-cyan-400 sm:pb-5">potencial humano</span>
                 </h1>
-                <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">Adentrate en esta experiencia helada y desbloquea una cascada de beneficios. Ice baths y sauna</p>
+                <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">Sumérgete en el hielo y experimenta una nueva dimensión de bienestar y vitalidad! </p>
                 <div className="mt-4 sm:mt-6">
                     <div className="sm:flex">
   
