@@ -74,7 +74,7 @@ const reviews = {
       id: 1,
       rating: 5,
       content: `
-        <p>Los baños de hielo en Pulso Polar no solo han mejorado mi condición física, sino que han sido un viaje de autodescubrimiento y superación personal. Cada inmersión me enseña sobre resistencia, control y el poder de la mente.</p>
+        <p>Desarrollar el hábito de la inmersión en hielo no solo ha mejorado mi condición física, sino que han sido un viaje de autodescubrimiento y mejora integral. Cada inmersión me enseña sobre resistencia, control y el poder de la mente.</p>
       `,
       author: 'Andrés Fernandez',
       avatarSrc:
@@ -84,7 +84,7 @@ const reviews = {
       id: 1,
       rating: 5,
       content: `
-        <p>Los baños de hielo han cambiado mi forma de enfrentar los retos, tanto físicos como emocionales. Cada sesión es un paso más hacia una mejor versión de mí mismo. Estoy profundamente agradecido por esta experiencia que ha enriquecido mi vida.</p>
+        <p>La exposición deliberada al frío ha cambiado mi forma de enfrentar los retos, tanto físicos como emocionales. Cada sesión es un paso más hacia una mejor versión de mí mismo. Estoy profundamente agradecido por esta experiencia que ha enriquecido mi vida.</p>
       `,
       author: 'Oscar Monsalve',
       avatarSrc:
