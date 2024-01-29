@@ -84,7 +84,7 @@ const reviews = {
       id: 1,
       rating: 5,
       content: `
-        <p>Los baños de hielo han cambiado mi forma de enfrentar los retos, tanto físicos como emocionales. Cada sesión es un paso más hacia una mejor versión de mí mismo. Estoy profundamente agradecida por esta experiencia que ha enriquecido mi vida.</p>
+        <p>Los baños de hielo han cambiado mi forma de enfrentar los retos, tanto físicos como emocionales. Cada sesión es un paso más hacia una mejor versión de mí mismo. Estoy profundamente agradecido por esta experiencia que ha enriquecido mi vida.</p>
       `,
       author: 'Oscar Monsalve',
       avatarSrc:
