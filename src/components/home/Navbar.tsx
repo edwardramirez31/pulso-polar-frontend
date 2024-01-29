@@ -41,13 +41,13 @@ export default function Navbar() {
     <div className={`${isOpen ? 'block' : 'hidden'} inset-x-0 transition transform origin-top md:hidden z-100`}>
           <div className="pt-5 pb-3">
             <div className="px-2 space-y-1">
-              <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50 hover:text-gray-500">Product</a>
+              <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50 hover:text-gray-500">Servicios</a>
 
-              <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50 hover:text-gray-500">Features</a>
+              <Link href="/experiencias/inmersion-glacial" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50 hover:text-gray-500">Experiencias</Link>
 
-              <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50 hover:text-gray-500">Marketplace</a>
+              <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50 hover:text-gray-500">Contacto</a>
 
-              <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50 hover:text-gray-500">Company</a>
+              <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50 hover:text-gray-500">Nosotros</a>
             </div>
             <div className="mt-6 px-5">
               <a href="#" className="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-teal-500 to-cyan-600 text-white font-medium hover:from-teal-600 hover:to-cyan-700">Reserva</a>
