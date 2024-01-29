@@ -7,7 +7,7 @@ import Head from 'next/head';
 import Footer from '@/src/components/shared/Footer';
 
 const product = {
-  name: 'Inmerssión Glacial',
+  name: 'Inmersión Glacial',
   href: '#',
   price: '$48.900',
   description:
