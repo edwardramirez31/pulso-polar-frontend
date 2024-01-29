@@ -2,16 +2,16 @@
 import Navbar from '@/src/components/home/Navbar';
 import Head from 'next/head';
 import Footer from '@/src/components/shared/Footer';
-import ExperienceOverview from './ExperienceOverview';
 import {
-  INMERSION_GLACIAL,
-  INMERSION_GLACIAL_DETAIL,
-  INMERSION_GLACIAL_REVIEWS,
+  OASIS_GLACIAL,
+  OASIS_GLACIAL_DETAIL,
+  OASIS_GLACIAL_REVIEWS,
+  OASIS_GLACIAL_FEATURES,
 } from '@/src/constants/experiences';
-import ExperienceDetail from './ExperienceDetail';
-import ExperienceFeatures from './ExperienceFeatures';
-import { INMERSION_GLACIAL_FEATURES } from '../../../src/constants/experiences';
-import ExperienceReviews from './ExperienceReviews';
+import ExperienceDetail from '../inmersion-glacial/ExperienceDetail';
+import ExperienceFeatures from '../inmersion-glacial/ExperienceFeatures';
+import ExperienceReviews from '../inmersion-glacial/ExperienceReviews';
+import ExperienceOverview from '../inmersion-glacial/ExperienceOverview';
 
 export default function InmersionGlacialPage() {
   return (
@@ -36,15 +36,15 @@ export default function InmersionGlacialPage() {
 
         <main>
           <ExperienceOverview
-            experience={INMERSION_GLACIAL}
-            reviews={INMERSION_GLACIAL_REVIEWS}
+            experience={OASIS_GLACIAL}
+            reviews={OASIS_GLACIAL_REVIEWS}
           />
-          <ExperienceDetail detail={INMERSION_GLACIAL_DETAIL} />
+          <ExperienceDetail detail={OASIS_GLACIAL_DETAIL} />
           <ExperienceFeatures
-            features={INMERSION_GLACIAL_FEATURES}
-            serviceName={INMERSION_GLACIAL.name}
+            features={OASIS_GLACIAL_FEATURES}
+            serviceName={OASIS_GLACIAL.name}
           />
-          <ExperienceReviews reviews={INMERSION_GLACIAL_REVIEWS} />
+          <ExperienceReviews reviews={OASIS_GLACIAL_REVIEWS} />
         </main>
 
         <Footer />
