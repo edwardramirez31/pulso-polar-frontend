@@ -2,6 +2,7 @@ import { IExperience, IExperienceReviews } from '@/src/constants/experiences';
 import { classNames } from '@/src/utils/styling'
 import { StarFilled, CheckOutlined, QuestionOutlined } from '@ant-design/icons'
 import { RadioGroup } from '@headlessui/react'
+import Image from 'next/image';
 import React, { useState } from 'react'
 
 interface Props {
@@ -85,12 +86,15 @@ const ExperienceOverview = ({experience, reviews}: Props) => {
               </div>
   
               {/* experience image */}
-              <div className="mt-10 lg:mt-0 lg:col-start-2 lg:row-span-2 lg:self-center">
-                <div className="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden">
-                  <img
+              <div className="mt-10 w-full h-full lg:mt-0 lg:col-start-2 lg:row-span-2 ">
+                <div className="relative w-full h-full rounded-lg overflow-hidden">
+                  <Image
                     src={experience.imageSrc}
                     alt={experience.imageAlt}
-                    className="w-full h-full object-center object-cover"
+                    className="object-center object-cover"
+                    layout="responsive"
+                    width={100}
+                    height={50}
                   />
                 </div>
               </div>

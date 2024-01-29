@@ -1,13 +1,13 @@
 import { IExperienceFeature } from '@/src/constants/experiences';
+import Image from 'next/image';
 import React from 'react';
-
 
 interface Props {
   features: IExperienceFeature[];
   serviceName: string;
 }
 
-const ExperienceFeatures = ({features, serviceName}: Props) => {
+const ExperienceFeatures = ({ features, serviceName }: Props) => {
   return (
     <section
       aria-labelledby="policy-heading"
@@ -19,15 +19,20 @@ const ExperienceFeatures = ({features, serviceName}: Props) => {
       <div className="grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 lg:gap-x-8 ">
         {features.map((feature) => (
           <div key={feature.name}>
-            <img
-              src={feature.imageSrc}
-              alt={feature.name}
-              className="h-24 w-auto mx-auto"
-            />
+            <div className="relative h-24 w-24 mx-auto">
+              <Image
+                fill
+                src={feature.imageSrc}
+                alt={feature.name}
+                loading='lazy'
+              />
+            </div>
             <h3 className="mt-6 text-base font-medium text-gray-900">
               {feature.name}
             </h3>
-            <p className="mt-3 text-base text-gray-500">{feature.description}</p>
+            <p className="mt-3 text-base text-gray-500">
+              {feature.description}
+            </p>
           </div>
         ))}
       </div>

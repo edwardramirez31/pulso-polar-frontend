@@ -1,4 +1,5 @@
 import { IExperienceDetail } from '@/src/constants/experiences';
+import Image from 'next/image';
 import React from 'react';
 
 interface Props {
@@ -27,11 +28,15 @@ const ExperienceDetail = ({ detail }: Props) => {
             {detail.items.map(({ id, image, description }) => (
               <div key={id}>
                 <div className="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-                  <img
-                    src={image}
-                    alt={id}
-                    className="w-full object-center object-cover h-80"
-                  />
+                  <div className="relative h-80">
+                    <Image
+                      src={image}
+                      alt={id}
+                      className="w-full object-center object-cover"
+                      fill
+                      loading='lazy'
+                    />
+                  </div>
                 </div>
                 <p className="mt-8 text-base text-gray-300">{description}</p>
               </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import {  StarFilled } from '@ant-design/icons';
 import { classNames } from '@/src/utils/styling';
 import { IExperienceReviews } from '@/src/constants/experiences';
+import Image from 'next/image';
 
 
 interface Props {
@@ -114,11 +115,15 @@ const ExperienceReviews = ({reviews}: Props) => {
               {reviews.featured.map((review) => (
                 <div key={review.id} className="py-12">
                   <div className="flex items-center">
-                    <img
-                      src={review.avatarSrc}
-                      alt={`${review.author}.`}
-                      className="h-12 w-12 rounded-full"
-                    />
+                    <div className="relative h-12 w-12">
+                      <Image
+                        fill
+                        src={review.avatarSrc}
+                        alt={`${review.author}.`}
+                        className="rounded-full"
+                        loading='lazy'
+                      />
+                    </div>
                     <div className="ml-4">
                       <h4 className="text-sm font-bold text-gray-900">
                         {review.author}
