@@ -30,7 +30,7 @@ const AboutPage = () => {
         <Hero />
       </header>
 
-      <main className="px-2">
+      <main>
         <Mission />
         <Values />
         {/* <CallToAction /> */}

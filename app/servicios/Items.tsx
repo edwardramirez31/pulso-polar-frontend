@@ -41,7 +41,7 @@ const Items = () => {
                   </Link>
                 </div>
               </div>
-              <p className="sm:mt-8 text-base text-gray-300">
+              <p className="mt-4 sm:mt-8 text-base text-gray-300">
                 La Experiencia Inmersión Glacial te ofrece una introducción al
                 mundo de los baños de hielo, combinando la ciencia del frío con
                 técnicas de yoga y respiración para un bienestar integral.
@@ -66,7 +66,7 @@ const Items = () => {
                   </Link>
                 </div>
               </div>
-              <p className="sm:mt-8 text-base text-gray-300">
+              <p className="mt-4 sm:mt-8 text-base text-gray-300">
                 La Experiencia Oasis Glacial eleva los baños de hielo a un nivel
                 premium. Disfruta de un jacuzzi con vistas panorámicas y una
                 experiencia de bienestar de lujo
