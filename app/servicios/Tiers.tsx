@@ -13,9 +13,9 @@ const scaleFeatures = [
 export default function Tiers() {
   return (
     <div className="bg-gray-900">
-      <div className="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20">
+      <div className="pt-6 px-4 sm:px-6 lg:px-8 lg:pt-20">
         <div className="text-center">
-          <h2 className="text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider">Precios</h2>
+          <h2 className="text-lg leading-6 font-semibold text-gray-300 uppercase tracking-wider">Planes</h2>
           <p className="mt-2 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
             El precio adecuado con base en tus objetivos
           </p>
@@ -41,7 +41,7 @@ export default function Tiers() {
                         <div className="mt-4 flex items-center justify-center">
                           <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900">
                             <span className="mt-2 mr-2 text-4xl font-medium">$</span>
-                            <span className="font-extrabold">19900</span>
+                            <span className="font-extrabold">19.900</span>
                           </span>
                           <span className="text-xl font-medium text-gray-500">/día</span>
                         </div>
@@ -95,7 +95,7 @@ export default function Tiers() {
                       <div className="mt-4 flex items-center justify-center">
                         <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900 sm:text-6xl">
                           <span className="mt-2 mr-2 text-4xl font-medium">$</span>
-                          <span className="font-extrabold">99900</span>
+                          <span className="font-extrabold">99.900</span>
                         </span>
                         <span className="text-2xl font-medium text-gray-500">/mes</span>
                       </div>
@@ -138,7 +138,7 @@ export default function Tiers() {
                         <div className="mt-4 flex items-center justify-center">
                           <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900">
                             <span className="mt-2 mr-2 text-4xl font-medium">$</span>
-                            <span className="font-extrabold">189900</span>
+                            <span className="font-extrabold">189.900</span>
                           </span>
                           <span className="text-xl font-medium text-gray-500">/mes</span>
                         </div>

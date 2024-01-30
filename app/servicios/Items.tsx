@@ -6,7 +6,7 @@ import React from 'react';
 const Items = () => {
   return (
     <div className="bg-gray-900">
-      <div className="max-w-2xl mx-auto px-4 py-24 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+      <div className="max-w-2xl mx-auto px-4 py-12 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <section aria-labelledby="details-heading">
           <div className="flex flex-col items-center text-center">
             <h2
@@ -21,7 +21,7 @@ const Items = () => {
             </p>
           </div>
 
-          <div className="mt-16 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
+          <div className="mt-16 grid grid-cols-1 gap-y-12 lg:grid-cols-2 lg:gap-x-8">
             <div>
               <div className="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
                 <div style={{ height: 450 }} className="relative w-full h-full">
@@ -41,7 +41,7 @@ const Items = () => {
                   </Link>
                 </div>
               </div>
-              <p className="mt-8 text-base text-gray-300">
+              <p className="sm:mt-8 text-base text-gray-300">
                 La Experiencia Inmersión Glacial te ofrece una introducción al
                 mundo de los baños de hielo, combinando la ciencia del frío con
                 técnicas de yoga y respiración para un bienestar integral.
@@ -66,7 +66,7 @@ const Items = () => {
                   </Link>
                 </div>
               </div>
-              <p className="mt-8 text-base text-gray-300">
+              <p className="sm:mt-8 text-base text-gray-300">
                 La Experiencia Oasis Glacial eleva los baños de hielo a un nivel
                 premium. Disfruta de un jacuzzi con vistas panorámicas y una
                 experiencia de bienestar de lujo
