@@ -6,7 +6,7 @@ const Benefits = () => {
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
           <h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">Optimiza tu salud</h2>
           <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">Alcanza máximos niveles de bienestar</p>
-          <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">Descongela tu potencial y descubre los sorprendetes beneficios de la inmersión en hielo. Súmergete en una experiencia revitalizante qye estimula tu cuerpo y mente.</p>
+          <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">Descongela tu potencial y descubre los sorprendentes beneficios de la inmersión en hielo. Súmergete en una experiencia revitalizante que fortalece tu cuerpo y mente.</p>
           <div className="mt-12">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
               <div className="pt-6">
@@ -52,7 +52,6 @@ const Benefits = () => {
   <path strokeLinecap="round" strokeLinejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M10.5 8.25h3l-3 4.5h3" />
 </svg>
 
-                        
                       </span>
                     </div>
                     <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Sueño Óptimo</h3>
@@ -72,7 +71,7 @@ const Benefits = () => {
                       </span>
                     </div>
                     <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Sistema Inmune</h3>
-                    <p className="mt-5 text-base text-gray-500">Fortalece el sistema inmunológico y dile adios a la enfermedad.</p>
+                    <p className="mt-5 text-base text-gray-500">Fortalece el sistema inmunológico y dile adiós a la enfermedad.</p>
                   </div>
                 </div>
               </div>

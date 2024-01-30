@@ -23,8 +23,8 @@ const Experience = () => {
           </p>
           <p className="mt-3 text-lg text-gray-300">
             Desafía el frío y disfruta una experiencia de bienestar como ninguna
-            otra. La inmersión en hielo junto con un ambiente relajante y
-            rejuvenecedor que atrae a una amplia gama de entusiastas del
+            otra. La inmersión en hielo junto, con un ambiente relajante y
+            rejuvenecedor, atrae a una amplia gama de entusiastas del
             bienestar.
           </p>
           <div className="mt-8">
