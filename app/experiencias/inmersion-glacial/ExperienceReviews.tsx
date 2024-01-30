@@ -1,16 +1,15 @@
-import React from 'react';
+import React, { Dispatch, SetStateAction } from 'react';
 import {  StarFilled } from '@ant-design/icons';
 import { classNames } from '@/src/utils/styling';
 import { IExperienceReviews } from '@/src/constants/experiences';
 import Image from 'next/image';
 
-
 interface Props {
   reviews: IExperienceReviews;
+  setShowReviewsForm: Dispatch<SetStateAction<boolean>>;
 }
 
-
-const ExperienceReviews = ({reviews}: Props) => {
+const ExperienceReviews = ({reviews, setShowReviewsForm}: Props) => {
   return (
     <section aria-labelledby="reviews-heading" className="bg-white">
       <div className="max-w-2xl mx-auto py-24 px-4 sm:px-6 lg:max-w-7xl lg:py-32 lg:px-8 lg:grid lg:grid-cols-12 lg:gap-x-8">
@@ -99,7 +98,10 @@ const ExperienceReviews = ({reviews}: Props) => {
             </p>
 
             <a
-              href="#"
+              onClick={() => {
+                setShowReviewsForm((prevState) => !prevState)
+              }}
+              href="#review-form"
               className="mt-6 inline-flex w-full bg-white border border-gray-300 rounded-md py-2 px-8 items-center justify-center text-sm font-medium text-gray-900 hover:bg-gray-50 sm:w-auto lg:w-full"
             >
               Escribe una reseña

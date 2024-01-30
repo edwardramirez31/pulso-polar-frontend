@@ -12,8 +12,11 @@ import ExperienceDetail from './ExperienceDetail';
 import ExperienceFeatures from './ExperienceFeatures';
 import { INMERSION_GLACIAL_FEATURES } from '../../../src/constants/experiences';
 import ExperienceReviews from './ExperienceReviews';
+import ReviewsForm from './ReviewsForm';
+import { useState } from 'react';
 
 export default function InmersionGlacialPage() {
+  const [showReviewsForm, setShowReviewsForm] = useState(false)
   return (
     <>
       <Head>
@@ -44,7 +47,8 @@ export default function InmersionGlacialPage() {
             features={INMERSION_GLACIAL_FEATURES}
             serviceName={INMERSION_GLACIAL.name}
           />
-          <ExperienceReviews reviews={INMERSION_GLACIAL_REVIEWS} />
+          <ExperienceReviews setShowReviewsForm={setShowReviewsForm} reviews={INMERSION_GLACIAL_REVIEWS} />
+          {showReviewsForm && <ReviewsForm setShowReviewsForm={setShowReviewsForm} />}
         </main>
 
         <Footer />

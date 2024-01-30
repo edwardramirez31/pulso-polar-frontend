@@ -6,15 +6,33 @@ import { Field, Form, Formik } from 'formik';
 import { useState } from 'react';
 
 export default function Contact() {
-  const [showAlert, setShowAlert] = useState(false)
-  const [formState, handleSubmit] = useForm(process.env.NEXT_PUBLIC_CONTACT_FORM_ID ?? '');
+  const [showAlert, setShowAlert] = useState(false);
+  const [formState, handleSubmit] = useForm(
+    process.env.NEXT_PUBLIC_CONTACT_FORM_ID ?? ''
+  );
 
   let alert: JSX.Element;
 
   if (formState.succeeded) {
-    alert = <Alert show={showAlert} setShow={setShowAlert} success title="Mensaje enviado!" description="El equipo va a revisar el mensaje y se pondrá en contacto pronto."/>
+    alert = (
+      <Alert
+        show={showAlert}
+        setShow={setShowAlert}
+        success
+        title="Mensaje enviado!"
+        description="El equipo va a revisar el mensaje y se pondrá en contacto pronto."
+      />
+    );
   } else {
-    alert = <Alert show={showAlert} setShow={setShowAlert} success title="Error interno" description="El mensaje no pudo ser enviado, intenta nuevamente."/>
+    alert = (
+      <Alert
+        show={showAlert}
+        setShow={setShowAlert}
+        success={false}
+        title="Error interno"
+        description="El mensaje no pudo ser enviado, intenta nuevamente."
+      />
+    );
   }
 
   return (
@@ -44,23 +62,35 @@ export default function Contact() {
               <div className="mt-6">
                 <dt className="sr-only">Teléfono</dt>
                 <dd className="flex">
-                  <PhoneOutlined
-                    className="flex-shrink-0 h-6 w-6 text-gray-400"
-                    aria-hidden="true"
-                    style={{ fontSize: '23px' }}
-                  />
-                  <span className="ml-3">+57 315 3240111</span>
+                  <a
+                    href="https://wa.me/573153240111?text=Quiero%20mas%20informacion%20sobre%20Pulso%20Polar!"
+                    target="_blank"
+                    className="hover:text-cyan-600"
+                  >
+                    <PhoneOutlined
+                      className="flex-shrink-0 h-6 w-6 text-gray-400"
+                      aria-hidden="true"
+                      style={{ fontSize: '23px' }}
+                    />
+                    <span className="ml-3">+57 315 3240111</span>
+                  </a>
                 </dd>
               </div>
               <div className="mt-3">
                 <dt className="sr-only">Correo</dt>
                 <dd className="flex">
-                  <MailOutlined
-                    className="flex-shrink-0 h-6 w-6 text-gray-400"
-                    aria-hidden="true"
-                    style={{ fontSize: '23px' }}
-                  />
-                  <span className="ml-3">contacto@pulsopolar.com</span>
+                  <a
+                    href="mailto:contacto@pulsopolar.com"
+                    target="_blank"
+                    className="hover:text-cyan-600"
+                  >
+                    <MailOutlined
+                      className="flex-shrink-0 h-6 w-6 text-gray-400"
+                      aria-hidden="true"
+                      style={{ fontSize: '23px' }}
+                    />
+                    <span className="ml-3">contacto@pulsopolar.com</span>
+                  </a>
                 </dd>
               </div>
             </dl>
@@ -85,7 +115,7 @@ export default function Contact() {
               onSubmit={async (values, { resetForm }) => {
                 await handleSubmit(values);
                 // alert(JSON.stringify(values, null, 2));
-                setShowAlert((prevState) => !prevState)
+                setShowAlert((prevState) => !prevState);
                 resetForm();
               }}
             >

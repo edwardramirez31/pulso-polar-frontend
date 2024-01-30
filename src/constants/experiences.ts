@@ -114,7 +114,7 @@ export const INMERSION_GLACIAL_REVIEWS: IExperienceReviews = {
         '/bustamante.jpeg',
     },
     {
-      id: 1,
+      id: 2,
       rating: 5,
       content: `
         <p>Desarrollar el hábito de la inmersión en hielo no solo ha mejorado mi condición física, sino que han sido un viaje de autodescubrimiento y mejora integral. Cada inmersión me enseña sobre resistencia, control y el poder de la mente.</p>
@@ -124,7 +124,7 @@ export const INMERSION_GLACIAL_REVIEWS: IExperienceReviews = {
         '/rojote.jpg',
     },
     {
-      id: 1,
+      id: 3,
       rating: 5,
       content: `
         <p>La exposición deliberada al frío ha cambiado mi forma de enfrentar los retos, tanto físicos como emocionales. Cada sesión es un paso más hacia una mejor versión de mí mismo. Estoy profundamente agradecido por esta experiencia que ha enriquecido mi vida.</p>
@@ -222,7 +222,7 @@ export const OASIS_GLACIAL_REVIEWS: IExperienceReviews = {
         '/luisk2.jpg',
     },
     {
-      id: 1,
+      id: 2,
       rating: 5,
       content: `
         <p>La experiencia fue una verdadera prueba de resistencia y fortaleza mental. La inmersión en el jacuzzi con 200kg de hielo me llevó al límite, no solo puso a prueba mi resistencia física, sino que también fortaleció mi mente.</p>
@@ -232,7 +232,7 @@ export const OASIS_GLACIAL_REVIEWS: IExperienceReviews = {
         '/gerson4.jpg',
     },
     {
-      id: 1,
+      id: 3,
       rating: 5,
       content: `
         <p>Oasis Glacial me ofreció un momento de pura serenidad y conexión conmigo mismo, en medio de una atmósfera de auténtico lujo. La vista desde el jacuzzi era espectacular, y las técnicas de respiración me ayudaron a disfrutar plenamente cada segundo.</p>
