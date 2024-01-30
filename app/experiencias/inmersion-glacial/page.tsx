@@ -14,15 +14,6 @@ import { INMERSION_GLACIAL_FEATURES } from '../../../src/constants/experiences';
 import ExperienceReviews from './ExperienceReviews';
 import ReviewsForm from './ReviewsForm';
 import { useState } from 'react';
-import { Metadata } from 'next'
-
-export const metadata: Metadata = {
-  title: 'Experiencia Inmersión Glacial - Bucaramanga',
-  description: 'Vive la Experiencia Inmersión Glacial en Bucaramanga con nuestra formación en baños de hielo, sesiones de yoga, técnicas de respiración y más.',
-  openGraph: {
-    images: 'https://www.pulsopolar.com/icebath8.jpg',
-  },
-}
 
 export default function InmersionGlacialPage() {
   const [showReviewsForm, setShowReviewsForm] = useState(false)

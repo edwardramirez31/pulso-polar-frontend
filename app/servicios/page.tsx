@@ -4,15 +4,19 @@ import Head from 'next/head';
 import Footer from '@/src/components/shared/Footer';
 import Items from './Items';
 import Tiers from './Tiers';
-import { Metadata } from 'next'
+// import { Metadata } from 'next'
 
-export const metadata: Metadata = {
-  title: 'Pulso Polar - Servicios',
-  description: 'Vive la Experiencia Inmersión Glacial en Bucaramanga con nuestra formación en baños de hielo, sesiones de yoga, técnicas de respiración y más.',
-  openGraph: {
-    images: 'https://www.pulsopolar.com/oasis-glacial6.png',
-  },
-}
+// export const metadata: Metadata = {
+//   title: 'Pulso Polar - Servicios',
+//   keywords: ['Inmersión Glacial', 'Baños de Hielo', 'Wim Hof', 'Yoga', 'Bucaramanga'],
+//   authors: [{ name: 'Luis Rincon' }, { name: 'Edward Ramirez', url: 'https://www.instagram.com/edwardramirez31/' }],
+//   creator: 'Edward Ramirez',
+//   publisher: 'Edward Ramirez',
+//   description: 'Vive las experiencia de Pulso Polar en Bucaramanga con nuestra formación en baños de hielo, sesiones de yoga, técnicas de respiración y más.',
+//   openGraph: {
+//     images: 'https://www.pulsopolar.com/oasis-glacial6.png',
+//   },
+// }
 
 export default function InmersionGlacialPage() {
   return (

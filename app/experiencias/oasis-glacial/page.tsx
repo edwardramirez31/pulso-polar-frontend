@@ -14,16 +14,6 @@ import ExperienceReviews from '../inmersion-glacial/ExperienceReviews';
 import ExperienceOverview from '../inmersion-glacial/ExperienceOverview';
 import { useState } from 'react';
 import ReviewsForm from '../inmersion-glacial/ReviewsForm';
-import { Metadata } from 'next'
-
-export const metadata: Metadata = {
-  title: 'Experiencia Oasis Glacial - Bucaramanga',
-  description: 'Vive la Experiencia Oasis Glacial en Bucaramanga con nuestra formación en baños de hielo, sesiones de yoga, técnicas de respiración y más.',
-  openGraph: {
-    images: 'https://www.pulsopolar.com/icebath8.jpg',
-  },
-}
-
 
 export default function InmersionGlacialPage() {
   const [showReviewsForm, setShowReviewsForm] = useState(false)
