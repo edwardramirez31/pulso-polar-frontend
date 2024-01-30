@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-const Experience = () => {
+const Mission = () => {
   return (
     <div className="relative bg-gray-900">
       <div className="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
@@ -9,23 +9,20 @@ const Experience = () => {
           loading="lazy"
           fill
           className="w-full h-full object-cover"
-          src="/icebath10.jpg"
+          src="/icebath9.jpg"
           alt=""
         />
       </div>
       <div className="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
         <div className="md:ml-auto md:w-1/2 md:pl-10">
           <h2 className="text-base font-semibold uppercase tracking-wider text-gray-300">
-            Escapa y recárgate
+            Nuestra Misión
           </h2>
           <p className="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">
-            Alcanza nuevos niveles de vitalidad
+            Por qué hacemos lo que hacemos
           </p>
           <p className="mt-3 text-lg text-gray-300">
-            Desafía el frío y disfruta una experiencia de bienestar como ninguna
-            otra. La inmersión en hielo junto con un ambiente relajante y
-            rejuvenecedor que atrae a una amplia gama de entusiastas del
-            bienestar.
+            Nuestra misión es empoderar a individuos en su búsqueda de mejora continua en salud física y mental, proporcionando acceso a técnicas sostenibles y efectivas que mejoren su calidad de vida. Ofrecer experiencias transformadoras de bienestar a través de prácticas innovadoras de terapia de frío y calor
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
@@ -54,4 +51,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Mission;

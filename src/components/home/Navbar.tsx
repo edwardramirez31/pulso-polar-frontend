@@ -67,19 +67,19 @@ export default function Navbar() {
               Experiencias
             </Link>
 
-            <a
-              href="#"
+            <Link
+              href="/nosotros#contacto"
               className="text-base font-medium text-white hover:text-gray-300"
             >
               Contacto
-            </a>
+            </Link>
 
-            <a
-              href="#"
+            <Link
+              href="/nosotros"
               className="text-base font-medium text-white hover:text-gray-300"
             >
               Nosotros
-            </a>
+            </Link>
           </div>
         </div>
         <div className="hidden md:flex md:items-center md:space-x-6">
@@ -90,7 +90,8 @@ export default function Navbar() {
             Regístrate{' '}
           </a>
           <a
-            href="#"
+            href="https://wa.me/573153240111?text=Quiero%20vivir%20la%20experiencia%20inmersion%20glacial!"
+            target="_blank"
             className="block w-full py-2 px-6 shadow bg-gradient-to-r from-teal-500 to-cyan-600 text-white font-medium hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900 rounded-full"
           >
             {' '}
@@ -117,19 +118,19 @@ export default function Navbar() {
               Experiencias
             </Link>
 
-            <a
-              href="#"
+            <Link
+              href="/nosotros#contacto"
               className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50 hover:text-gray-500"
             >
               Contacto
-            </a>
+            </Link>
 
-            <a
-              href="#"
+            <Link
+              href="/nosotros"
               className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50 hover:text-gray-500"
             >
               Nosotros
-            </a>
+            </Link>
           </div>
           <div className="mt-6 px-5">
             <a
