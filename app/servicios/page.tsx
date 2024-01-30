@@ -22,7 +22,7 @@ export default function InmersionGlacialPage() {
         <title>Experiencia Inmersión Glacial - Bucaramanga</title>
         <meta
           property="og:image"
-          content="https://www.pulsopolar.com/icebath8.jpg"
+          content="https://www.pulsopolar.com/oasis-glacial6.png"
         />{' '}
         {/* Reemplaza con la URL de una imagen relevante */}
         {/* Meta tags para mejorar la búsqueda local */}
