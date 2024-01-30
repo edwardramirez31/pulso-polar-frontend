@@ -39,6 +39,10 @@ export default function Home() {
         <meta name="geo.position" content="7.12539;-73.1198" />{' '}
         {/* Reemplaza con la latitud y longitud de Bucaramanga */}
         <meta name="ICBM" content="7.12539, -73.1198" />{' '}
+        <meta
+          name="keywords"
+          content="Hielo, Baños de Hielo, Wim Hof, Yoga, Bucaramanga"
+        />
         {/* Mismo reemplazo que arriba */}
       </Head>
       <div className="bg-white">
