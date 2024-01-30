@@ -251,7 +251,7 @@ export const OASIS_GLACIAL: IExperience = {
   price: '$125.900',
   description:
     "Vive la versión premium de los baños de hielo, diseñada para elevar tu bienestar a nuevas alturas. Sumérgete en un jacuzzi repleto con 200kg de hielo mientras disfrutas de una vista panorámica de la ciudad. Esta experiencia exclusiva combina la revitalización que ofrecen los baños de hielo con sesiones de yoga, técnicas de respiración avanzadas y una atmósfera de puro lujo. Además, inmortaliza tu transformación con capturas de momentos únicas desde el cielo con nuestro servicio de dron, llevando tu recuerdo de esta aventura única más allá de lo convencional.",
-  imageSrc: '/oasis-glacial2.png',
+  imageSrc: '/oasis-glacial6.png',
   imageAlt: 'Light green canvas bag with black straps, handle, front zipper pouch, and drawstring top.',
   breadcrumbs: [
     { id: 1, name: 'Experiencias', href: '#' },
