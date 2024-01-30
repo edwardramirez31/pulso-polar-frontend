@@ -94,9 +94,9 @@ export const INMERSION_GLACIAL_DETAIL: IExperienceDetail = {
 
 export const INMERSION_GLACIAL_REVIEWS: IExperienceReviews = {
   average: 5,
-  totalCount: 14,
+  totalCount: 5,
   counts: [
-    { rating: 5, count: 14 },
+    { rating: 5, count: 5 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
@@ -132,6 +132,26 @@ export const INMERSION_GLACIAL_REVIEWS: IExperienceReviews = {
       author: 'Oscar Monsalve',
       avatarSrc:
         '/oscarr.jpg',
+    },
+    {
+      id: 4,
+      rating: 5,
+      content: `
+        <p>Solía ver los Ice Baths como un estilo de vida para celebridades o deportitas de alto rendimiento. Pensé que solo ellos podían sacar provecho de dicho hábito debido al alto estrés en su vida cotidiana. Pero me he dado cuenta que cualquier persona puede encontrar un beneficio en está práctica.</p>
+      `,
+      author: 'Luis Rincon',
+      avatarSrc:
+        '/luisk2.jpg',
+    },
+    {
+      id: 5,
+      rating: 5,
+      content: `
+        <p>Estas terapias son un recordatorio constante de que somos más que grandes que nuestros problemas y que dominando nuestra mente con enfoque y determinación podemos superar las adversidades que se nos presentan. Es muy recomendable volver las inmersiones en hielo un hábito y hacerlas parte de tu estilo de vida.</p>
+      `,
+      author: 'Wilson Ramírez',
+      avatarSrc:
+        '/oasis5.jpg',
     },
     // More reviews...
   ],
@@ -202,9 +222,9 @@ export const OASIS_GLACIAL_DETAIL: IExperienceDetail = {
 
 export const OASIS_GLACIAL_REVIEWS: IExperienceReviews = {
   average: 4.5,
-  totalCount: 14,
+  totalCount: 3,
   counts: [
-    { rating: 5, count: 14 },
+    { rating: 5, count: 3 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
