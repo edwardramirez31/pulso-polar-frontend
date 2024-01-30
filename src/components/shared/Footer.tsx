@@ -1,5 +1,6 @@
 import { YoutubeFilled } from '@ant-design/icons';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
@@ -92,18 +93,18 @@ const Footer = () => {
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      href="/servicios"
                       className="text-base text-gray-500 hover:text-gray-900"
                     >
                       {' '}
                       Baños de hielo{' '}
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
                     <a
-                      href="#"
+                      href="/experiencias/inmersion-glacial"
                       className="text-base text-gray-500 hover:text-gray-900"
                     >
                       {' '}
@@ -186,23 +187,23 @@ const Footer = () => {
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      href="/nosotros"
                       className="text-base text-gray-500 hover:text-gray-900"
                     >
                       {' '}
                       Nosotros{' '}
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      href="/nosotros#contacto"
                       className="text-base text-gray-500 hover:text-gray-900"
                     >
                       {' '}
                       Contacto{' '}
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
