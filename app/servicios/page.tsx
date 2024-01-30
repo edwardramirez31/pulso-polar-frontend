@@ -4,6 +4,15 @@ import Head from 'next/head';
 import Footer from '@/src/components/shared/Footer';
 import Items from './Items';
 import Tiers from './Tiers';
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Pulso Polar - Servicios',
+  description: 'Vive la Experiencia Inmersión Glacial en Bucaramanga con nuestra formación en baños de hielo, sesiones de yoga, técnicas de respiración y más.',
+  openGraph: {
+    images: 'https://www.pulsopolar.com/oasis-glacial6.png',
+  },
+}
 
 export default function InmersionGlacialPage() {
   return (
