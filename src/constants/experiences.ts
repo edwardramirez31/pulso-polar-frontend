@@ -137,7 +137,7 @@ export const INMERSION_GLACIAL_REVIEWS: IExperienceReviews = {
       id: 4,
       rating: 5,
       content: `
-        <p>Solía ver los Ice Baths como un estilo de vida para celebridades o deportitas de alto rendimiento. Pensé que solo ellos podían sacar provecho de dicho hábito debido al alto estrés en su vida cotidiana. Pero me he dado cuenta que cualquier persona puede encontrar un beneficio en está práctica.</p>
+        <p>Solía ver los Ice Baths como un estilo de vida para celebridades o deportistas de alto rendimiento. Pensé que solo ellos podían sacar provecho de dicho hábito debido al alto estrés en su vida cotidiana. Pero me he dado cuenta que cualquier persona puede encontrar un beneficio en está práctica.</p>
       `,
       author: 'Luis Rincon',
       avatarSrc:
