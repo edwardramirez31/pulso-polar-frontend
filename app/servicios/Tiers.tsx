@@ -1,4 +1,3 @@
-
 import { CheckOutlined } from "@ant-design/icons"
 
 const hobbyFeatures = ['Experimenta el frío y sus beneficios en cualquier momento', 'Hasta tres inmersiones de 3 minutos', 'Asesoramiento inicial']

@@ -128,7 +128,7 @@ export default function Contact() {
                     // type="text"
                     id="name"
                     name="name"
-                    placeholder="Jane"
+                    placeholder="Nombre"
                     // autoComplete="name"
                     className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-teal-500 focus:border-teal-500 border-gray-300 rounded-md text-black"
                     required

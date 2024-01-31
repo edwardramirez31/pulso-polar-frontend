@@ -14,7 +14,7 @@ const features = [
     icon: UsergroupAddOutlined,
   },
   {
-    name: 'Empoderamiento Activo:',
+    name: 'Empoderamiento Activo',
     description:
       'Facilitar el crecimiento personal y profesional de nuestros clientes y empleados, promoviendo una cultura de autodesarrollo y logro.',
     icon: RocketOutlined,

@@ -1,5 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
-
 import { classNames } from '@/src/utils/styling';
 import { CheckOutlined } from '@ant-design/icons';
 
