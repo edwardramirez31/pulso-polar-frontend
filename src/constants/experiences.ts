@@ -94,7 +94,7 @@ export const INMERSION_GLACIAL_DETAIL: IExperienceDetail = {
 
 export const INMERSION_GLACIAL_REVIEWS: IExperienceReviews = {
   average: 5,
-  totalCount: 5,
+  totalCount: 6,
   counts: [
     { rating: 5, count: 5 },
     { rating: 4, count: 0 },
@@ -152,6 +152,16 @@ export const INMERSION_GLACIAL_REVIEWS: IExperienceReviews = {
       author: 'Wilson Ramírez',
       avatarSrc:
         '/oasis5.jpg',
+    },
+    {
+      id: 6,
+      rating: 5,
+      content: `
+        <p>Pulso polar me ha permitido el espacio y la oportunidad de poder encontrar en los baños de hielo la recuperación muscular después de un trabajo físico exigente y así mismo me libera del estrés acumulado del día a día, les puedo dar mi voto de confianza que esto les cambiará la vida.</p>
+      `,
+      author: 'Javier Alvarez',
+      avatarSrc:
+        '/javier.jpg',
     },
     // More reviews...
   ],
