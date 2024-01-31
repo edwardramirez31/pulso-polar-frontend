@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Footer from '@/src/components/shared/Footer';
 import Items from './Items';
 import Tiers from './Tiers';
+import GroupTiers from './GroupTiers';
 // import { Metadata } from 'next'
 
 // export const metadata: Metadata = {
@@ -58,6 +59,7 @@ export default function InmersionGlacialPage() {
         <main>
          <Items/>
          <Tiers />
+         <GroupTiers />
         </main>
 
         <Footer />
