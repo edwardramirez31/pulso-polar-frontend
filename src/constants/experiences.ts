@@ -96,7 +96,7 @@ export const INMERSION_GLACIAL_REVIEWS: IExperienceReviews = {
   average: 5,
   totalCount: 6,
   counts: [
-    { rating: 5, count: 5 },
+    { rating: 5, count: 6 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
