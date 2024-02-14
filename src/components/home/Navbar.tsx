@@ -137,6 +137,12 @@ export default function Navbar() {
             >
               Nosotros
             </Link>
+            <Link
+              href="/blog"
+              className="text-base font-medium text-white hover:text-gray-300"
+            >
+              Aprende
+            </Link>
           </div>
           <div className="mt-6 px-5">
             <a
