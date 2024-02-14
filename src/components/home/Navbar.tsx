@@ -7,7 +7,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav
-      className="relative px-4 sm:px-40 py-4 backdrop-blur-md backdrop-filter bg-opacity-10"
+      className="relative px-8 sm:px-40 py-4 backdrop-blur-md backdrop-filter bg-opacity-10"
       aria-label="Global"
     >
       <div className="flex items-center justify-between">
@@ -79,6 +79,12 @@ export default function Navbar() {
               className="text-base font-medium text-white hover:text-gray-300"
             >
               Nosotros
+            </Link>
+            <Link
+              href="/blog"
+              className="text-base font-medium text-white hover:text-gray-300"
+            >
+              Aprende
             </Link>
           </div>
         </div>

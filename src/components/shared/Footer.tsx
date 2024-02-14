@@ -139,38 +139,39 @@ const Footer = () => {
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      href="/blog"
                       className="text-base text-gray-500 hover:text-gray-900"
                     >
                       {' '}
                       Artículos{' '}
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      href="/blog"
                       className="text-base text-gray-500 hover:text-gray-900"
                     >
                       {' '}
                       Seminarios{' '}
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      href="/blog"
                       className="text-base text-gray-500 hover:text-gray-900"
                     >
                       {' '}
                       Guías{' '}
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
                     <a
-                      href="#"
+                      href="https://www.instagram.com/pulsopolar/"
+                      target="_blank"
                       className="text-base text-gray-500 hover:text-gray-900"
                     >
                       {' '}

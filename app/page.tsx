@@ -1,6 +1,5 @@
-'use client';
 import Benefits from '@/src/components/home/Benefits';
-import Blog from '@/src/components/home/Blog';
+import BlogSection from '@/src/components/home/Blog';
 import Experience from '@/src/components/home/Experience';
 import Hero from '@/src/components/home/Hero';
 import Navbar from '@/src/components/home/Navbar';
@@ -9,7 +8,19 @@ import Footer from '@/src/components/shared/Footer';
 import Head from 'next/head';
 import Image from 'next/image';
 
-export default function Home() {
+import getBlogPosts from '@/src/api/blog';
+
+
+// export const getServerSideProps  = (async (context) => {
+//   const res = await getBlogPosts()
+//   return { props: { posts: res } }
+// }) satisfies GetServerSideProps<{
+//   posts: Entry<ProductEntrySkeleton, undefined, string>[]
+// }>
+
+// eslint-disable-next-line @next/next/no-async-client-component
+export default async function Home() {
+  const posts = await getBlogPosts()
   return (
     <>
       <Head>
@@ -73,7 +84,7 @@ export default function Home() {
             <Experience />
             <Benefits />
             <Testimonial />
-            <Blog />
+            <BlogSection posts={posts} />
           </main>
           <Footer />
         </div>

@@ -94,7 +94,7 @@ export default function Tiers() {
                       <div className="mt-4 flex items-center justify-center">
                         <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900 sm:text-6xl">
                           <span className="mt-2 mr-2 text-4xl font-medium">$</span>
-                          <span className="font-extrabold">99.900</span>
+                          <span className="font-extrabold">109.900</span>
                         </span>
                         <span className="text-2xl font-medium text-gray-500">/mes</span>
                       </div>
