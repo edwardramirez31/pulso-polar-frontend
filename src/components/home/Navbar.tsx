@@ -139,7 +139,7 @@ export default function Navbar() {
             </Link>
             <Link
               href="/blog"
-              className="text-base font-medium text-white hover:text-gray-300"
+              className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-50 hover:text-gray-500"
             >
               Aprende
             </Link>
