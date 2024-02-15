@@ -8,24 +8,25 @@ import { Dispatch, SetStateAction, useState } from 'react';
 const validationSchema = Yup.object().shape({
   name: Yup.string().required('El nombre es requerido'),
   rate: Yup.number().min(0).max(5).required('La calificación es requerida'),
-  email: Yup.string().email('El correo electrónico no es válido').required('El correo electrónico es requerido'),
+  email: Yup.string()
+    .email('El correo electrónico no es válido')
+    .required('El correo electrónico es requerido'),
   picture: Yup.object().shape({
     file: Yup.mixed().required('La imagen es requerida'),
-    fileName: Yup.string().required('El archivo es requerido')
+    fileName: Yup.string().required('El archivo es requerido'),
   }),
-  review: Yup.string().required('La reseña es requerida')
+  review: Yup.string().required('La reseña es requerida'),
 });
 
 interface Props {
   setShowReviewsForm: Dispatch<SetStateAction<boolean>>;
 }
 
-export default function ReviewsForm({setShowReviewsForm}: Props) {
+export default function ReviewsForm({ setShowReviewsForm }: Props) {
   const [formState, handleSubmit] = useForm(
     process.env.NEXT_PUBLIC_CONTACT_FORM_ID ?? ''
   );
   const [showAlert, setShowAlert] = useState(false);
-
 
   let alert: JSX.Element;
 
@@ -57,24 +58,24 @@ export default function ReviewsForm({setShowReviewsForm}: Props) {
         name: '',
         rate: '',
         email: '',
-        picture: {file: '', fileName: ''},
+        picture: { file: '', fileName: '' },
         review: '',
       }}
       validationSchema={validationSchema}
       onSubmit={async (values, { resetForm }) => {
-        await handleSubmit({nombre: values.name, email: values.email, reseña: values.review, calificacion: values.rate, picture: values.picture.file});
+        await handleSubmit({
+          nombre: values.name,
+          email: values.email,
+          reseña: values.review,
+          calificacion: values.rate,
+          picture: values.picture.file,
+        });
         // alert(JSON.stringify(values, null, 2));
         setShowAlert((prevState) => !prevState);
         resetForm();
       }}
     >
-      {({
-        values,
-        errors,
-        touched,
-        handleBlur,
-        setFieldValue,
-      }) => {
+      {({ values, errors, touched, handleBlur, setFieldValue }) => {
         return (
           <Form className="space-y-6 px-2 lg:px-32" id="review-form">
             <div className="bg-white shadow px-4 lg:py-5 sm:rounded-lg sm:p-6">
@@ -126,8 +127,14 @@ export default function ReviewsForm({setShowReviewsForm}: Props) {
                       </div>
                     </div>
 
-                    <StarRating setRate={(value: number) => { setFieldValue('rate', value) }} />
-                    {errors.rate && touched.rate && (<span className="text-red-600">{errors.rate}</span>)}
+                    <StarRating
+                      setRate={(value: number) => {
+                        setFieldValue('rate', value);
+                      }}
+                    />
+                    {errors.rate && touched.rate && (
+                      <span className="text-red-600">{errors.rate}</span>
+                    )}
 
                     <div>
                       <label
@@ -188,7 +195,10 @@ export default function ReviewsForm({setShowReviewsForm}: Props) {
                                     let reader = new FileReader();
                                     let file = e.target.files[0]!;
                                     reader.onloadend = () => {
-                                      setFieldValue('picture', {file: reader.result, fileName: e.target.value.split('\\')[2]});
+                                      setFieldValue('picture', {
+                                        file: reader.result,
+                                        fileName: e.target.value.split('\\')[2],
+                                      });
                                     };
                                     reader.readAsDataURL(file);
                                   }
@@ -200,13 +210,14 @@ export default function ReviewsForm({setShowReviewsForm}: Props) {
                             {/* <p className="pl-1">o arrastra aquí</p> */}
                           </div>
                           <p className="text-xs text-gray-500">
-                            { values.picture.fileName || 'PNG, JPG, GIF de hasta 10MB'}
+                            {values.picture.fileName ||
+                              'PNG, JPG, GIF de hasta 10MB'}
                           </p>
                         </div>
                       </div>
                     </div>
                   </div>
-              {alert}
+                  {alert}
                 </div>
               </div>
             </div>
