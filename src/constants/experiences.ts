@@ -94,9 +94,9 @@ export const INMERSION_GLACIAL_DETAIL: IExperienceDetail = {
 
 export const INMERSION_GLACIAL_REVIEWS: IExperienceReviews = {
   average: 5,
-  totalCount: 6,
+  totalCount: 7,
   counts: [
-    { rating: 5, count: 6 },
+    { rating: 5, count: 7 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
@@ -162,6 +162,16 @@ export const INMERSION_GLACIAL_REVIEWS: IExperienceReviews = {
       author: 'Javier Alvarez',
       avatarSrc:
         '/javier.jpg',
+    },
+    {
+      id: 7,
+      rating: 5,
+      content: `
+        <p>Desde que conocí pulso polar he tenido un gran cambio tanto físico como mental. El control de la respiración junto a las bajas temperaturas me brindan mucha energía, y a su vez, me ayuda a liberar todo el estrés acumulado sintiéndome libre y con toda la motivación para seguir en mi día a día, muy recomendado.</p>
+      `,
+      author: 'Juan Pablo Ruiz',
+      avatarSrc:
+        '/juan-pablo.jpg',
     },
     // More reviews...
   ],
