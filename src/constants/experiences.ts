@@ -94,15 +94,26 @@ export const INMERSION_GLACIAL_DETAIL: IExperienceDetail = {
 
 export const INMERSION_GLACIAL_REVIEWS: IExperienceReviews = {
   average: 5,
-  totalCount: 7,
+  totalCount: 8,
   counts: [
-    { rating: 5, count: 7 },
+    { rating: 5, count: 8 },
     { rating: 4, count: 0 },
     { rating: 3, count: 0 },
     { rating: 2, count: 0 },
     { rating: 1, count: 0 },
   ],
   featured: [
+    {
+      id: 8,
+      rating: 5,
+      content: `
+        <p>Una experiencia maravillosa que te lleva al limite de tu resistencia.
+        </p>
+      `,
+      author: 'Maria Fernanda Ballesteros',
+      avatarSrc:
+        '/maria.jpg',
+    },
     {
       id: 1,
       rating: 5,
@@ -171,7 +182,7 @@ export const INMERSION_GLACIAL_REVIEWS: IExperienceReviews = {
       `,
       author: 'Juan Pablo Ruiz',
       avatarSrc:
-        '/juan-pablo.jpg',
+        '/juan_pablo.jpg',
     },
     // More reviews...
   ],
