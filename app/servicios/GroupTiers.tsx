@@ -54,7 +54,7 @@ const pricing = {
 
 export default function GroupTiers() {
   return (
-    <div className="max-w-7xl mx-auto py-24 px-4 bg-white sm:px-6 lg:px-8">
+    <section className="max-w-7xl mx-auto py-24 px-4 bg-white sm:px-6 lg:px-8" id="planes-grupales">
       <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
         Planes grupales
       </h2>
@@ -119,6 +119,6 @@ export default function GroupTiers() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
