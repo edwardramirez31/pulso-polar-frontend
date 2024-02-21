@@ -20,7 +20,7 @@ const pricing = {
     },
     {
       title: 'Plan Banda Gélida',
-      price: 49900,
+      price: 54900,
       frequency: '3 personas',
       description: 'Para bandas en busca aventura y crecimiento conjunto.',
       features: [

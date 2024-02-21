@@ -40,7 +40,7 @@ export default function Tiers() {
                         <div className="mt-4 flex items-center justify-center">
                           <span className="px-3 flex items-start text-6xl tracking-tight text-gray-900">
                             <span className="mt-2 mr-2 text-4xl font-medium">$</span>
-                            <span className="font-extrabold">23.900</span>
+                            <span className="font-extrabold">24.900</span>
                           </span>
                           <span className="text-xl font-medium text-gray-500">/día</span>
                         </div>
