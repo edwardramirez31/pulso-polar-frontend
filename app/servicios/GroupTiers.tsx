@@ -5,7 +5,7 @@ const pricing = {
   tiers: [
     {
       title: 'Plan Dúo',
-      price: 36900,
+      price: 39900,
       frequency: '2 personas',
       description:
         'Un viaje exclusivo para dos almas intrépidas.',
