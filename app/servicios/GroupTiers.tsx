@@ -5,7 +5,7 @@ const pricing = {
   tiers: [
     {
       title: 'Plan Dúo',
-      price: 40000,
+      price: 120000,
       frequency: '2 personas',
       description:
         'Un viaje exclusivo para dos almas intrépidas.',
@@ -20,7 +20,7 @@ const pricing = {
     },
     {
       title: 'Plan Banda Gélida',
-      price: 52500,
+      price: 150000,
       frequency: '3 personas',
       description: 'Para bandas en busca aventura y crecimiento conjunto.',
       features: [
@@ -35,7 +35,7 @@ const pricing = {
     },
     {
       title: 'Plan Familia Glacial',
-      price: 60000,
+      price: 200000,
       frequency: '4 personas',
       description:
         'Explora los límites de la resistencia y el bienestar con tus amigos.',

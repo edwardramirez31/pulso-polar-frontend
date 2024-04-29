@@ -191,7 +191,7 @@ export const INMERSION_GLACIAL_REVIEWS: IExperienceReviews = {
 export const INMERSION_GLACIAL: IExperience = {
   name: 'Inmersión Glacial',
   href: '#',
-  price: '$48.900',
+  price: '$79.900',
   description:
     "Sumérgete en la Experiencia Inmersión Glacial de Pulso Polar en Bucaramanga, donde el poder del frío se convierte en tu aliado para el bienestar y la superación personal. Esta aventura única combina la ciencia de la inmersión en hielo con yoga, técnicas de respiración y estrategias de integración diaria, diseñadas para fortalecer tu cuerpo y mente. Prepárate para explorar tus límites, mejorar tu salud y desbloquear una energía inimaginable.",
   imageSrc: '/inmersion-glacial.png',
@@ -299,7 +299,7 @@ export const OASIS_GLACIAL_REVIEWS: IExperienceReviews = {
 export const OASIS_GLACIAL: IExperience = {
   name: 'Oasis Glacial',
   href: '#',
-  price: '$125.900',
+  price: '$129.900',
   description:
     "Vive la versión premium de los baños de hielo, diseñada para elevar tu bienestar a nuevas alturas. Sumérgete en un jacuzzi repleto con 200kg de hielo mientras disfrutas de una vista panorámica de la ciudad. Esta experiencia exclusiva combina la revitalización que ofrecen los baños de hielo con sesiones de yoga, técnicas de respiración avanzadas y una atmósfera de puro lujo. Además, inmortaliza tu transformación con capturas de momentos únicas desde el cielo con nuestro servicio de dron, llevando tu recuerdo de esta aventura única más allá de lo convencional.",
   imageSrc: '/oasis-glacial6.png',
