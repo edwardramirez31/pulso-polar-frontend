@@ -19,12 +19,12 @@ const Footer = () => {
               src="https://tailwindui.com/img/logos/workflow-mark-gray-300.svg"
               alt="Company name"
             />
-            <p className="text-gray-500 text-base">
+            <p className="text-gray-400 text-base">
               Desarrollando el potencial humano mediante la exposición al frío y
               el poder de la mente.
             </p>
             <div className="flex space-x-6">
-              <a href="#" className="text-gray-400 hover:text-gray-500">
+              <a href="#" className="text-gray-400 hover:text-gray-400">
                 <span className="sr-only">Facebook</span>
                 <svg
                   className="h-6 w-6"
@@ -43,7 +43,7 @@ const Footer = () => {
               <a
                 href="https://www.instagram.com/pulsopolar/"
                 target="_blank"
-                className="text-gray-400 hover:text-gray-500"
+                className="text-gray-400 hover:text-gray-400"
               >
                 <span className="sr-only">Instagram</span>
                 <svg
@@ -60,7 +60,7 @@ const Footer = () => {
                 </svg>
               </a>
 
-              <a href="#" className="text-gray-400 hover:text-gray-500">
+              <a href="#" className="text-gray-400 hover:text-gray-400">
                 <span className="sr-only">Twitter</span>
                 <svg
                   className="h-6 w-6"
@@ -75,7 +75,7 @@ const Footer = () => {
               <a
                 href="https://www.youtube.com/@pulsopolar"
                 target="_blank"
-                className="text-gray-400 hover:text-gray-500 h-6 w-6"
+                className="text-gray-400 hover:text-gray-400 h-6 w-6"
               >
                 <span className="sr-only">YouTube</span>
                 <YoutubeFilled
@@ -95,7 +95,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/servicios"
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-400 hover:text-gray-100"
                     >
                       {' '}
                       Baños de hielo{' '}
@@ -105,7 +105,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="/experiencias/inmersion-glacial"
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-400 hover:text-gray-100"
                     >
                       {' '}
                       Personalizado{' '}
@@ -115,7 +115,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-400 hover:text-gray-100"
                     >
                       {' '}
                       Expediciones{' '}
@@ -125,7 +125,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-400 hover:text-gray-100"
                     >
                       {' '}
                       Bienestar Integral{' '}
@@ -141,7 +141,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/blog"
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-400 hover:text-gray-100"
                     >
                       {' '}
                       Artículos{' '}
@@ -151,7 +151,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/blog"
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-400 hover:text-gray-100"
                     >
                       {' '}
                       Seminarios{' '}
@@ -161,7 +161,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/blog"
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-400 hover:text-gray-100"
                     >
                       {' '}
                       Guías{' '}
@@ -172,7 +172,7 @@ const Footer = () => {
                     <a
                       href="https://www.instagram.com/pulsopolar/"
                       target="_blank"
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-400 hover:text-gray-100"
                     >
                       {' '}
                       Vídeos{' '}
@@ -190,7 +190,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/nosotros"
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-400 hover:text-gray-100"
                     >
                       {' '}
                       Nosotros{' '}
@@ -200,7 +200,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/nosotros#contacto"
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-400 hover:text-gray-100"
                     >
                       {' '}
                       Contacto{' '}
@@ -210,7 +210,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-400 hover:text-gray-100"
                     >
                       {' '}
                       Ubicaciones{' '}
@@ -220,7 +220,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-400 hover:text-gray-100"
                     >
                       {' '}
                       Alianzas{' '}
@@ -236,7 +236,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-400 hover:text-gray-100"
                     >
                       {' '}
                       Solicitudes{' '}
@@ -246,7 +246,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-400 hover:text-gray-100"
                     >
                       {' '}
                       Privacidad{' '}
@@ -256,7 +256,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-base text-gray-500 hover:text-gray-900"
+                      className="text-base text-gray-400 hover:text-gray-100"
                     >
                       {' '}
                       Términos y Condiciones{' '}
